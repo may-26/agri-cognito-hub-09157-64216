@@ -1,73 +1,69 @@
-# Welcome to your Lovable project
+# 🌱 TCO Escolar — 🌾 AgroHUB AI — Inovação no Campo com Inteligência Artificial
 
-## Project info
+**Protótipo Interativo de Previsão Agrícola e Suporte à Colheita**
 
-**URL**: https://lovable.dev/projects/7445b981-50f1-4b6b-8c8d-9f9fbfe53a0a
+## 🛰️ Sobre o Projeto
 
-## How can I edit this code?
+**AgroHUB AI** é um sistema inteligente que auxilia produtores rurais no **monitoramento de lavouras**, **previsão de riscos de pragas e doenças** e **análise de desenvolvimento da cultura**, utilizando algoritmos preditivos e integração com **IA simulada (Gemini)**.
 
-There are several ways of editing your application.
+O objetivo é **aplicar tecnologia e ciência de dados no agronegócio**, tornando as decisões de manejo mais precisas e sustentáveis.
 
-**Use Lovable**
+> 🌱 *“A inteligência artificial a serviço da sua colheita.”*
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7445b981-50f1-4b6b-8c8d-9f9fbfe53a0a) and start prompting.
+## 👩‍🌾 Equipe de Desenvolvimento
 
-Changes made via Lovable will be committed automatically to this repo.
+* Mayra Emanuelle Pereira da Silva
+* Rafael Carvalho do Nascimento
+* Glenda Alexandrina Pereira Tavares
+* Henderson Cavalcante Siqueira
+* José Wellington Fontes dos Santos
 
-**Use your preferred IDE**
+## 📄 Documento do Projeto
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+📎 Acesse o documento completo do TCC no [Google Docs](#) *(adicione o link quando disponível)*.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🤖 Funcionalidades Principais
 
-Follow these steps:
+* **Login e Identificação** do produtor (com nome da fazenda e salvamento automático).
+* **Simulação Climática Interativa**: temperatura, umidade, molhamento foliar e precipitação.
+* **Cálculo do Índice de Risco** de pragas e doenças com base em fatores ambientais e históricos.
+* **Assistente Gemini (AI Simulada)**: tira dúvidas sobre o cultivo e gera relatórios completos.
+* **Exportação de Relatórios** em formato JSON.
+* **Análise Preditiva de Desenvolvimento da Cultura**, com dados de solo, pH, umidade e fator cinético.
+* **Visualização Gráfica (Chart.js)** dos fatores de risco.
+* **Design responsivo e moderno** com **Tailwind e animações CSS personalizadas**.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🧠 Tecnologias Utilizadas
 
-# Step 3: Install the necessary dependencies.
-npm i
+* **HTML5, CSS3 e JavaScript (ES6)**
+* **Chart.js** — Gráficos interativos
+* **Font Awesome** — Ícones e animações
+* **Tailwind CSS + shadcn-ui** — Interface moderna
+* **Vite + React + TypeScript (base do Lovable)**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
 
-**Edit a file directly in GitHub**
+## ☁️ Implantação
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+O projeto pode ser publicado diretamente pelo [Lovable](https://lovable.dev/projects/7445b981-50f1-4b6b-8c8d-9f9fbfe53a0a):
 
-**Use GitHub Codespaces**
+> Basta acessar → **Share → Publish**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+## 🌐 Conectar Domínio Personalizado
 
-This project is built with:
+Você pode conectar um domínio próprio no painel do Lovable:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+> `Project > Settings > Domains > Connect Domain`
 
-## How can I deploy this project?
+Mais informações em: [📘 Documentação Lovable](https://docs.lovable.dev/features/custom-domain#custom-domain)
 
-Simply open [Lovable](https://lovable.dev/projects/7445b981-50f1-4b6b-8c8d-9f9fbfe53a0a) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🧩 Créditos e Versão
 
-Yes, you can!
+**Versão:** 2.1
+**Status:** 🔧 Em desenvolvimento
+**Licença:** Uso educacional – TCO Escolar
+**Tema:** Inteligência Artificial no Agronegócio
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
