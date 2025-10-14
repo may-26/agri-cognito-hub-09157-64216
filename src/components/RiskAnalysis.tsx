@@ -108,7 +108,7 @@ export const RiskAnalysis = () => {
     };
 
     navigator.clipboard.writeText(JSON.stringify(report, null, 2));
-    toast.success("Relatório copiado para a área de transferência!");
+    toast.success("Relatório copiado!");
   };
 
   return (
