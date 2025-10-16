@@ -59,7 +59,7 @@ const Index = () => {
 
   const fetchUserProfile = async (userId: string) => {
     try {
-      const { data, error } = await supabase
+      const { data, error } = await (supabase as any)
         .from('profiles')
         .select('farm_name')
         .eq('id', userId)
