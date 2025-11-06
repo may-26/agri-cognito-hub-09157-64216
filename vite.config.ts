@@ -17,10 +17,7 @@ export default defineConfig(({ mode }) => ({
 
   // Plugins
   plugins: [
-    react({
-      // Configuração do plugin React
-      plugins: [["@swc/plugin-emotion", {}]],
-    }),
+    react(),
     mode === "development" && componentTagger(),
   ].filter(Boolean),
 
