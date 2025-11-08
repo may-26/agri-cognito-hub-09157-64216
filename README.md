@@ -27,6 +27,7 @@ O objetivo é **aplicar tecnologia e ciência de dados no agronegócio**, tornan
 * **Login e Identificação** do produtor (com nome da fazenda e salvamento automático).
 * **Simulação Climática Interativa**: temperatura, umidade, molhamento foliar e precipitação.
 * **Cálculo do Índice de Risco** de pragas e doenças com base em fatores ambientais e históricos.
+* **Assistente Gemini (AI Simulada)**: tira dúvidas sobre o cultivo e gera relatórios completos.
 * **Exportação de Relatórios** em formato JSON.
 * **Análise Preditiva de Desenvolvimento da Cultura**, com dados de solo, pH, umidade e fator cinético.
 * **Visualização Gráfica (Chart.js)** dos fatores de risco.
