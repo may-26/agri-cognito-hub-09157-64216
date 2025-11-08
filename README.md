@@ -20,7 +20,7 @@ O objetivo é **aplicar tecnologia e ciência de dados no agronegócio**, tornan
 
 ## 📄 Documento do Projeto
 
-📎 Acesse o documento completo do TCC no [Google Docs](#) *(adicione o link quando disponível)*.
+📎 Acesse o documento completo do TCC no [Google Docs](#) *(adihttps://docs.google.com/document/d/1lJmA7kq_lA4219hzPOMScC-_ORB8yCYR/edit?usp=drivesdk&ouid=111903273690893780365&rtpof=true&sd=true)*.
 
 ## 🤖 Funcionalidades Principais
 
