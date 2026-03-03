@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ['Outfit', 'system-ui', 'sans-serif'],
+        body: ['Inter', 'system-ui', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -53,6 +57,10 @@ export default {
         success: "hsl(var(--success))",
         warning: "hsl(var(--warning))",
         danger: "hsl(var(--danger))",
+        earth: "hsl(var(--earth))",
+        soil: "hsl(var(--soil))",
+        harvest: "hsl(var(--harvest))",
+        sky: "hsl(var(--sky))",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -62,6 +70,8 @@ export default {
       backgroundImage: {
         'gradient-primary': 'var(--gradient-primary)',
         'gradient-hero': 'var(--gradient-hero)',
+        'gradient-earth': 'var(--gradient-earth)',
+        'gradient-sunset': 'var(--gradient-sunset)',
       },
       boxShadow: {
         'sm': 'var(--shadow-sm)',
@@ -82,12 +92,16 @@ export default {
           '50%': { transform: 'scale(1.15)', opacity: '1' },
         },
         "pulse-glow": {
-          '0%, 100%': { boxShadow: '0 0 20px rgba(82, 196, 26, 0.3)' },
-          '50%': { boxShadow: '0 0 30px rgba(82, 196, 26, 0.6)' },
+          '0%, 100%': { boxShadow: '0 0 20px hsla(82, 55%, 42%, 0.3)' },
+          '50%': { boxShadow: '0 0 30px hsla(82, 55%, 42%, 0.6)' },
         },
         "slide-up": {
           from: { opacity: '0', transform: 'translateY(20px)' },
           to: { opacity: '1', transform: 'translateY(0)' },
+        },
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-6px)' },
         },
       },
       animation: {
@@ -96,6 +110,7 @@ export default {
         grow: "grow 2s infinite ease-in-out",
         "pulse-glow": "pulse-glow 2s infinite ease-in-out",
         "slide-up": "slide-up 0.5s ease-out",
+        float: "float 3s infinite ease-in-out",
       },
     },
   },
